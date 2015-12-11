@@ -1,0 +1,10 @@
+var React = require('react');
+var MealCalendar = require('./mealCalendar');
+
+module.exports = React.createClass({
+  render: function() {
+    return <div>
+    	<MealCalendar {...this.props.calendarData} />
+   	</div>
+  }
+});

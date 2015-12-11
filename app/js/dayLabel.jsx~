@@ -1,0 +1,14 @@
+var React = require('react');
+var MacroInput = require('react');
+
+module.exports = React.createClass({
+  render: function() {
+    return <div className="col-sm-2 col-md-2 col-lg-2">
+      <div className="thumbnail">
+        <div className="caption">
+          <h4>{this.props.day}</h4>
+        </div>
+      </div>
+    </div>
+  }
+});
